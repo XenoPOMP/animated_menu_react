@@ -1,17 +1,15 @@
 # Анимированное меню на React
 
 <div style="width: 100%; 
-            display: flex; 
-            justify-content: center; 
-            align-items: center;"
+            display: grid;"
 >
     <img 
         src="src/assets/images/docs/nodejs-new-pantone-black.svg"
-        style="width: 40%;"
+        style="width: 40%; margin-left: 30%"
     />
     <img 
         src="src/assets/images/docs/reactjs-ar21.svg"
-        style="width: 40%;"
+        style="width: 40%; margin-left: 30%"
     />
 </div>
 
@@ -31,17 +29,15 @@
 # Animated menu on React
 
 <div style="width: 100%; 
-            display: flex; 
-            justify-content: center; 
-            align-items: center;"
+            display: grid;"
 >
     <img 
         src="src/assets/images/docs/nodejs-new-pantone-black.svg"
-        style="width: 40%;"
+        style="width: 40%; margin-left: 30%"
     />
     <img 
         src="src/assets/images/docs/reactjs-ar21.svg"
-        style="width: 40%;"
+        style="width: 40%; margin-left: 30%"
     />
 </div>
 
