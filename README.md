@@ -26,14 +26,19 @@
 
 # Animated menu on React
 
-<div style="width: 100%; display: flex; justify-content: space-between; align-items: center">
+<div style="width: 100%; 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center;
+            height: 150px"
+>
     <img 
         src="src/assets/images/docs/nodejs-new-pantone-black.svg"
-        style="width: 40%"
+        style="width: 40%; max-height: 100%"
     />
     <img 
         src="src/assets/images/docs/reactjs-ar21.svg"
-        style="width: 40%"
+        style="width: 40%; max-height: 100%"
     />
 </div>
 
