@@ -1,0 +1,24 @@
+.link {
+  position: relative;
+  color: #bebebe;
+  transition: .15s ease;
+
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: 0 - 2px;
+    height: 2px;
+    width: 100%;
+    background: #bebebe;
+    transition: inherit;
+  }
+
+  &:hover {
+    color: white;
+
+    &::before {
+      bottom: 0 - 3px;
+      background: white;
+    }
+  }
+}

@@ -1,0 +1,183 @@
+@import "src/assets/Style Templates/CenteredFlex";
+
+.container {
+  $animDuration: 400ms ease-in-out;
+  width: 100%;
+  height: calc(100vh - 57px);
+  position: fixed;
+  top: calc(100% - 57px);
+  background: #6442AC;
+  border-radius: 12px 12px 0 0;
+  animation-fill-mode: forwards;
+
+  .buttonGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 57px;
+    border-radius: 12px 12px 0 0;
+
+    button {
+      background: transparent;
+      border: unset;
+      outline: unset;
+      @extend %centeredFlex;
+      cursor: pointer;
+    }
+  }
+
+  .content {
+    transition: $animDuration;
+    width: 300vw;
+    position: absolute;
+    display: flex;
+    justify-content: start;
+  }
+
+  .field {
+    @extend %centeredFlex;
+    width: 100vw;
+    height: 75px;
+
+    input {
+      font-size: 1.25em;
+      border: none;
+      outline: none;
+      width: 80vw;
+      height: 45px;
+      border-radius: 10px;
+      padding: 0 10px;
+    }
+
+    &.about {
+      display: block;
+      color: white;
+      padding: 10px 20px;
+      height: unset;
+
+      .state {
+        padding: 5px 10px;
+        font-size: 1.2em;
+        text-align: justify;
+
+        .header { font-weight: bold; }
+      }
+    }
+  }
+
+  $homePosition: calc(100% - 57px);
+  $searchPosition: calc(100% - 57px - 75px);
+  $aboutPosition: 57px;
+
+  $homeContentMargin: 0vw;
+  $searchContentMargin: -100vw;
+  $aboutContentMargin: -200vw;
+
+  &.home {
+    top: $homePosition;
+
+    .content {
+      margin-left: $homeContentMargin;
+    }
+  }
+
+  &.search {
+    top: $searchPosition;
+
+    .content {
+      margin-left: $searchContentMargin;
+    }
+  }
+
+  &.about {
+    top: $aboutPosition;
+
+    .content {
+      margin-left: $aboutContentMargin;
+    }
+  }
+
+  // Animations
+  &.fromHomeToSearch {
+    animation: $animDuration fromHomeToSearch;
+    animation-fill-mode: forwards;
+
+    @keyframes fromHomeToSearch {
+      from { top: $homePosition; }
+      to   { top: $searchPosition; }
+    }
+
+    .content {
+      margin-left: $searchContentMargin;
+    }
+  }
+
+  &.fromHomeToAbout {
+    animation: $animDuration fromHomeToAbout;
+    animation-fill-mode: forwards;
+
+    @keyframes fromHomeToAbout {
+      from { top: $homePosition; }
+      to   { top: $aboutPosition; }
+    }
+
+    .content {
+      margin-left: $aboutContentMargin;
+    }
+  }
+
+  &.fromSearchToHome {
+    animation: $animDuration fromSearchToHome;
+    animation-fill-mode: forwards;
+
+    @keyframes fromSearchToHome {
+      from { top: $searchPosition; }
+      to   { top: $homePosition; }
+    }
+
+    .content {
+      margin-left: $homeContentMargin;
+    }
+  }
+
+  &.fromSearchToAbout {
+    animation: $animDuration fromSearchToAbout;
+    animation-fill-mode: forwards;
+
+    @keyframes fromSearchToAbout {
+      from { top: $searchPosition; }
+      to   { top: $aboutPosition; }
+    }
+
+    .content {
+      margin-left: $aboutContentMargin;
+    }
+  }
+
+  &.fromAboutToHome {
+    animation: $animDuration fromAboutToHome;
+    animation-fill-mode: forwards;
+
+    @keyframes fromAboutToHome {
+      from { top: $aboutPosition; }
+      to   { top: $homePosition; }
+    }
+
+    .content {
+      margin-left: $homeContentMargin;
+    }
+  }
+
+  &.fromAboutToSearch {
+    animation: $animDuration fromAboutToSearch;
+    animation-fill-mode: forwards;
+
+    @keyframes fromAboutToSearch {
+      from { top: $aboutPosition; }
+      to   { top: $searchPosition; }
+    }
+
+    .content {
+      margin-left: $searchContentMargin;
+    }
+  }
+}
