@@ -2,6 +2,6 @@
   "app_name" : "My App",
   "version" : "stable 1.0",
   "links" : {
-    "github" : "#github-link"
+    "github" : "https://github.com/XenoPOMP/animated_menu_react"
   }
 }

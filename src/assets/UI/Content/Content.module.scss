@@ -46,6 +46,10 @@
       height: 45px;
       border-radius: 10px;
       padding: 0 10px;
+      transition: .15s ease;
+
+      @media (max-width: 491px) { font-size: .98em }
+      @media (max-width: 336px) { font-size: .9em }
     }
 
     &.about {
@@ -57,9 +61,15 @@
       .state {
         padding: 5px 10px;
         font-size: 1.2em;
-        text-align: justify;
 
         .header { font-weight: bold; }
+
+        @media (max-width: 732px) { font-size: 1.1em; text-align: justify-all }
+        @media (max-width: 496px) { font-size: 1em; }
+        @media (max-width: 450px) { font-size: .8em; }
+        @media (max-width: 368px) { font-size: .7em; }
+        @media (max-width: 324px) { font-size: .6em; }
+        @media (max-width: 280px) { font-size: .55em; }
       }
     }
   }
