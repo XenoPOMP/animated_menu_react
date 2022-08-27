@@ -38,4 +38,4 @@ Before using scripts: \
 Run app in developer`s mode (non-optimized build)
 
 ### `npm run build`
-Start building the app (создание оптимизированного билда)
+Start building the app (optimized build)
