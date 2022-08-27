@@ -1,13 +1,17 @@
 # Анимированное меню на React
 
-<div style="width: 100%; display: flex; justify-content: space-between; align-items: center">
+<div style="width: 100%; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center;"
+>
     <img 
         src="src/assets/images/docs/nodejs-new-pantone-black.svg"
-        style="width: 40%"
+        style="width: 40%;"
     />
     <img 
         src="src/assets/images/docs/reactjs-ar21.svg"
-        style="width: 40%"
+        style="width: 40%;"
     />
 </div>
 
@@ -28,17 +32,16 @@
 
 <div style="width: 100%; 
             display: flex; 
-            justify-content: space-between; 
-            align-items: center;
-            height: 150px"
+            justify-content: center; 
+            align-items: center;"
 >
     <img 
         src="src/assets/images/docs/nodejs-new-pantone-black.svg"
-        style="width: 40%; max-height: 100%"
+        style="width: 40%;"
     />
     <img 
         src="src/assets/images/docs/reactjs-ar21.svg"
-        style="width: 40%; max-height: 100%"
+        style="width: 40%;"
     />
 </div>
 
