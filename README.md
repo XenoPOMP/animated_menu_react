@@ -10,7 +10,7 @@
 ## Скрипты:
 Для выполнения скриптов необходимо: \
 1). установить [Node.JS](https://nodejs.org/en/download/) \
-2). выполнить в Терминале команду `npm install`
+2). открыть директорию проекта в Терминале, выполнить команду `npm install`
 
 ### `npm run start`
 Запуск приложения в режиме разработчика (неоптимизированный билд)
@@ -32,7 +32,7 @@
 ## Scripts:
 Before using scripts: \
 1). install [Node.JS](https://nodejs.org/en/download/) \
-2). execute `npm install` in Terminal
+2). in project's directory execute `npm install` with Terminal
 
 ### `npm run start`
 Run app in developer`s mode (non-optimized build)
