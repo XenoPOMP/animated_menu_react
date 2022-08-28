@@ -7,3 +7,5 @@
 3. `react-router-dom` - https://www.npmjs.com/package/react-router-dom
 
 4. `universal-cookie` - https://www.npmjs.com/package/universal-cookie
+
+## [Назад / Back](https://github.com/XenoPOMP/animated_menu_react#анимированное-меню-на-react)
