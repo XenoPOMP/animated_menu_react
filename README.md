@@ -1,11 +1,13 @@
 # Анимированное меню на React
 
-<a href="https://reactjs.org">
-    <img 
-        src="src/assets/images/docs/reactjs-ar21.svg"
-        style="width: 40%; display: flex"
-    />  
-</a>
+<p align="center">
+    <a href="https://reactjs.org">
+        <img 
+            src="src/assets/images/docs/reactjs-ar21.svg"
+            style="width: 40%"
+        />  
+    </a>
+</p>
 
 ## Скрипты:
 Для выполнения скриптов необходимо: \
@@ -22,12 +24,14 @@
 
 # Animated menu on React
 
-<a href="https://reactjs.org">
-    <img 
-        src="src/assets/images/docs/reactjs-ar21.svg"
-        style="width: 40%; display: flex"
-    />  
-</a>
+<p align="center">
+    <a href="https://reactjs.org">
+        <img 
+            src="src/assets/images/docs/reactjs-ar21.svg"
+            style="width: 40%"
+        />  
+    </a>
+</p>
 
 ## Scripts:
 Before using scripts: \
