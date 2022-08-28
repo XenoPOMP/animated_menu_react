@@ -1,4 +1,4 @@
-# Используемые модули Node / Using Node modules
+# Используемые модули Node / Node modules used
 
 1. `sass-loader` - https://www.npmjs.com/package/sass-loader
 

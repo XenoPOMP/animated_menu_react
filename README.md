@@ -18,7 +18,7 @@
 ### `npm run build`
 Выполнить сборку приложения (создание оптимизированного билда)
 
-==========================================
+## [Используемые модули Node](https://github.com/XenoPOMP/animated_menu_react/blob/master/docs/usedPackages.md)
 
 # Animated menu on React
 
@@ -39,3 +39,5 @@ Run app in developer`s mode (non-optimized build)
 
 ### `npm run build`
 Start building the app (optimized build)
+
+## [Node modules used](https://github.com/XenoPOMP/animated_menu_react/blob/master/docs/usedPackages.md)
